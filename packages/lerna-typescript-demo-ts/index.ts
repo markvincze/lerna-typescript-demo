@@ -1,4 +1,4 @@
-import { map, take, tap } from 'rxjs/operators';
+import { tap } from 'rxjs/operators';
 import { Foo } from 'lerna-typescript-demo-base';
 
 const foo = new Foo();

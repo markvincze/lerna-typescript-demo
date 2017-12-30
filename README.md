@@ -16,7 +16,7 @@ Then execute
 lerna bootstrap
 ```
 
-The above command installs the dependencies for the two packages, runs `prepublish` (which transpiles the `base` package with `babel`). Since the dependency from `lerna-typescript-demo-ts` to `lerna-typescript-demo-base` is an internal cross-package dependency, `lerna` sets that up with a symbolic link pointing to the directory of the other package. I suspect that this is what's causing the compilation error.
+The above command installs the dependencies for the two packages. Since the dependency from `lerna-typescript-demo-ts` to `lerna-typescript-demo-base` is an internal cross-package dependency, `lerna` sets that up with a symbolic link pointing to the directory of the other package. I suspect that this is what's causing the compilation error.
 
 Then enter the directory of TypeScript package, and try to transpile.
 

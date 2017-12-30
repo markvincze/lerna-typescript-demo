@@ -1,7 +1,7 @@
 {
+	"name": "lerna-typescript-demo",
+	"version": "0.0.2",
 	"devDependencies": {
-		"babel-cli": "^6.26.0",
-		"babel-preset-travix": "^1.1.1",
 		"lerna": "^2.5.1"
 	}
 }

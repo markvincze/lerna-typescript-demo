@@ -1,4 +1,10 @@
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var BehaviorSubject = require('rxjs/BehaviorSubject');
 
 function Foo() {
 }
@@ -23,6 +29,7 @@ Foo.prototype.myFunc$ = function myFunc$ () {
   return new BehaviorSubject(dummyBars);
 }
 
-export default {
-  Foo
+exports.default = {
+  Foo: Foo
 };
+module.exports = exports['default'];

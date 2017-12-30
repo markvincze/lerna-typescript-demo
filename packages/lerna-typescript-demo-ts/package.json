@@ -1,17 +1,16 @@
 {
   "name": "lerna-typescript-demo-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "transpile": "./node_modules/.bin/tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lerna-typescript-demo-base": "^0.0.1",
+    "lerna-typescript-demo-base": "^0.0.2",
     "rxjs": "^5.5.6"
   },
   "devDependencies": {
