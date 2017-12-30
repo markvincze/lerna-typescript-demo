@@ -1,0 +1,18 @@
+{
+  "name": "lerna-typescript-demo-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "../../node_modules/.bin/babel src --out-dir dist",
+    "prepublish": "npm run transpile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "index.d.ts",
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  }
+}
