@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var BehaviorSubject = require('rxjs/BehaviorSubject');
+var { BehaviorSubject } = require('rxjs/BehaviorSubject');
 
 function Foo() {
 }
