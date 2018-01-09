@@ -2,6 +2,14 @@
 
 Sample repo illustrating an issue with TypeScript in a lerna-based monorepo.
 
+## UPDATE
+
+I found two workarounds for the issue:
+
+ - Instead of doing `lerna bootstrap`, if we do `lerna bootstrap --hoist`, it works. This is due to `--hoist` making `lerna` unify the common `rxjs` dependency, and puts it in the `node_modules` in the root, so there is no duplication any more.
+ - Add `rxjs` as a dependency in the root `package.json`, and move it to the `peerDependencies` in the actual packages. (This results in the same ultimate setup as what `lerna bootstrap --hoist` produces.)  
+I pushed this fix to the [`peer-dep`](https://github.com/markvincze/lerna-typescript-demo/tree/peer-dep) branch.
+
 ## Usage
 
 Clone the repo, and install the dependencies.
