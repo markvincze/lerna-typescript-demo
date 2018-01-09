@@ -1,6 +1,6 @@
 {
   "name": "lerna-typescript-demo-ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lerna-typescript-demo-base": "^0.0.2",
+    "lerna-typescript-demo-base": "^0.0.3",
     "rxjs": "^5.5.6"
   },
   "devDependencies": {
