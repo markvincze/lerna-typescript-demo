@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lerna-typescript-demo-base": "^0.0.3",
+    "lerna-typescript-demo-base": "^0.0.3"
+  },
+  "peerDependencies": {
     "rxjs": "^5.5.6"
   },
   "devDependencies": {
